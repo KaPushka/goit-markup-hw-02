@@ -16,8 +16,9 @@
 body {
     font-family: var(--primary-fonts);
     font-size: 14px;
+    letter-spacing: 0.03em;
     color: var(--primary-color);
-    line-height: 1.5;
+    line-height: 1.14;
     background-color: var(--white-color);
 }
 .list {
@@ -27,6 +28,7 @@ body {
     text-decoration: none;
 }
 .nav-link {
+    font-weight: 500;
     color: var(--primary-color);
 }
 
@@ -56,6 +58,7 @@ body {
 }
 .main-btn {
     font-family: inherit;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.06em;
@@ -80,9 +83,11 @@ body {
     visibility: var(--hidden-title);
 }
 .main-btn-list {
+    font-weight: 500;
     font-family: inherit;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.06em;
     cursor: pointer;
     letter-spacing: 0.03em;
     color: var(--primary-color);
@@ -95,6 +100,7 @@ body {
     color: inherit;
 }
 .contacts {
+    font-weight: normal;
     color: var(--secondary-text-color);
     font-style: normal;
 }
@@ -110,6 +116,7 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    letter-spacing: 0.06em;
     color: var(--white-color);
     text-transform: uppercase;
 
@@ -126,11 +133,11 @@ body {
     color: var(--title-color);
 }
 .section-list-text {
-    font-size: 14px;
     line-height: 1.14;
     color: var(--secondary-text-color);
 }
 .section-hero {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     color: var(--primary-color)
@@ -142,6 +149,7 @@ body {
 }
 
 .project-title {
+    font-weight: 500;
     font-size: 18px;
     line-height: 2;
     color: var(--title-color);
