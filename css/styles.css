@@ -136,11 +136,12 @@ body {
     line-height: 1.14;
     color: var(--secondary-text-color);
 }
-.section-hero {
+.hero-section {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    color: var(--primary-color)
+    color: var(--primary-color);
+    background-color: var(--bg-color);
 }
 .section-text {
     font-size: 16px;
@@ -174,5 +175,6 @@ body {
     text-decoration: none;
 }
 .contacts-footer {
+    font-weight: 400;
     color: rgba(255, 255, 255, 0.6);
 }
